@@ -16,6 +16,7 @@ public class Principal
 //        System.out.println("Se ha borrado el instrumento: " + instrumentoBorrado);
 //        f.listarInstrumentos();
 
+        // Calculamos el porcentaje de cada instrumento por tipo
         double[] porc = f.porcIntrumentosPorTipo("Sucursal A");
         for(int i = 0; i < porc.length; i++){
             System.out.println(porc[i]);;
