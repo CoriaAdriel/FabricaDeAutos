@@ -7,7 +7,7 @@ public class Principal
         // Creamos fábricas
         Fabrica f = new Fabrica();
         cargarFabrica(f);
-//        f.listarInstrumentos();
+        f.listarInstrumentos();
 //        ArrayList<Instrumento> lista = f.instrumentoPorTipo(TipoInstrumento.VIENTO);
 //        for (Instrumento instrumento :lista) {
 //            System.out.println(instrumento);
@@ -17,10 +17,10 @@ public class Principal
 //        f.listarInstrumentos();
 
         // Calculamos el porcentaje de cada instrumento por tipo
-        double[] porc = f.porcIntrumentosPorTipo("Sucursal A");
-        for(int i = 0; i < porc.length; i++){
-            System.out.println(porc[i]);;
-        }
+//        double[] porc = f.porcIntrumentosPorTipo("Sucursal A");
+//        for(int i = 0; i < porc.length; i++){
+//            System.out.println(porc[i]);;
+//        }
     }
     private static void cargarFabrica(Fabrica f)
     {
